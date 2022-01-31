@@ -13,7 +13,9 @@ public class OperacionesApp {
 		calculadora.setValue2(5);
 		calculadora.restar();
 		
-	
+		calculadora.setValue1(5);
+		calculadora.setValue2(6);
+		calculadora.multiplicacion();
 
 		calculadora.setValue1(12);
 		calculadora.setValue2(15);
