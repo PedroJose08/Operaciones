@@ -4,8 +4,7 @@ public class Operaciones {
 
 	public int value1;
 	public int value2;
-	public int value3;
-	public int value4;
+
 	
 	
 	
@@ -19,8 +18,12 @@ public class Operaciones {
 
 	public void sumar () {
 		int suma = value1 + value2;
-		System.out.println("Suma" +suma);
+		System.out.println("Suma " +suma);
 		
+	}
+	public void restar () {
+		int resta = value1 - value2;
+		System.out.println("Resta " +resta);
 	}
 
 
